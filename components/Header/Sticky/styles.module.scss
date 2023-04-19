@@ -11,6 +11,10 @@
   background: $colorWhite;
   transform: translate(-50%, -100%);
 
+  @media (min-width: 993px) {
+    max-width: 320px;
+  }
+
   &--active {
     transform: translate(-50%, 0%);
   }
