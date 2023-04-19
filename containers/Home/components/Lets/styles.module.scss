@@ -1,0 +1,35 @@
+@import "./static/styles/base/variables";
+
+.lets {
+  padding: 40px 0 53px;
+
+  &__title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  :global {
+    .slick-slide {
+      padding: 0 6px;
+    }
+
+    .arrow {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      z-index: 1;
+
+      &--next {
+        transform: translate(calc(-50% + 32px), 50%);
+      }
+
+      &--prev {
+        transform: translate(calc(-50% - 32px), 50%);
+      }
+    }
+  }
+
+  &-slider {
+    position: relative;
+  }
+}

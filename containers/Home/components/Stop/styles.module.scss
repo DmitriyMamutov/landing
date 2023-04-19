@@ -1,0 +1,14 @@
+@import "./static/styles/base/variables";
+
+.stop {
+  padding: 70px 0 80px;
+
+  &__title {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  &__button {
+    margin: 0 auto;
+  }
+}

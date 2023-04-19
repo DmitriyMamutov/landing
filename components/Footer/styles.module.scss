@@ -1,0 +1,25 @@
+@import "./static/styles/base/variables";
+
+.footer {
+  padding: 40px 0 21px;
+
+  &__logo {
+    max-width: 83px;
+    width: 100%;
+    margin: 0 auto 7px;
+  }
+
+  &__text {
+    font-family: $fontModerat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: $colorDarkBlue;
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

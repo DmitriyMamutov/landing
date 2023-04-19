@@ -1,0 +1,24 @@
+@import "./static/styles/base/variables";
+
+.protect {
+  padding: 25px 0 24px;
+  background: $colorBackgroundViolet;
+
+  &__title {
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  &__description {
+    padding: 0 8px;
+    font-family: $fontModerat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.248889px;
+    color: $colorDarkBlue;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,116 @@
+@import "./static/styles/base/variables";
+
+.accordion {
+  position: relative;
+
+  &:first-child {
+    &:before {
+      content: url("/static/images/home/steps/firstDash.svg");
+      height: 32px;
+      top: 32px;
+      left: 14px;
+    }
+  }
+
+  &:nth-child(2) {
+    &:before {
+      content: url("/static/images/home/steps/secondDash.svg");
+      height: 21px;
+      top: 32px;
+      left: 14px;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+
+    &:before {
+      position: absolute;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &-item {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+    &__number {
+      max-width: 28px;
+      width: 100%;
+      height: 28px;
+      background: $colorDarkBlue;
+      border-radius: 50%;
+      font-family: $fontModerat;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -0.248889px;
+      color: $colorWhite;
+      padding-top: 2px;
+      display: flex;
+      justify-content: center;
+      transition: $timeMedium ease-out;
+
+      &--active {
+        background: $colorPrimaryGreen;
+      }
+    }
+
+    &__title {
+      font-family: $fontModerat;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -0.248889px;
+      color: $colorDarkBlue;
+      transition: $timeMedium ease-out;
+      margin-left: 8px;
+
+      &--active {
+        color: $colorPrimaryGreen;
+      }
+    }
+
+    &__icon {
+      max-width: 24px;
+      width: 100%;
+      transition: $timeMedium ease-out;
+      margin-left: auto;
+      svg {
+        width: 100%;
+        display: flex;
+        height: auto;
+      }
+
+      path {
+        transition: $timeMedium ease-out;
+      }
+
+      &--active {
+        transform: rotate(180deg);
+        path {
+          fill: $colorPrimaryGreen;
+        }
+      }
+    }
+  }
+
+  &-hidden_content {
+    height: 0;
+    overflow: hidden;
+    transition: $timeMedium ease-out;
+    padding-left: 37px;
+
+    &__text {
+      font-family: $fontModerat;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: $colorDarkBlue;
+      padding-top: 12px;
+    }
+  }
+}

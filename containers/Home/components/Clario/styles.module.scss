@@ -1,0 +1,74 @@
+@import "./static/styles/base/variables";
+
+.clario {
+  padding: 20px 0 40px;
+
+  &__title {
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  &-list {
+    display: block;
+
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+
+      &__image {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+      }
+
+      &__title {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 2px;
+      }
+
+      &__description {
+        margin-bottom: 15px;
+        font-family: $fontModerat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.248889px;
+        color: $colorDarkBlue;
+      }
+
+      &-sublist {
+        max-width: 272px;
+        width: 100%;
+        margin: 0 auto;
+        &-element {
+          display: flex;
+          align-items: center;
+
+          &:not(:last-child) {
+            margin-bottom: 15px;
+          }
+
+          &__icon {
+            max-width: 24px;
+            width: 100%;
+            display: flex;
+          }
+
+          &__text {
+            margin-left: 8px;
+            font-family: $fontModerat;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: $colorDarkBlue;
+          }
+        }
+      }
+    }
+  }
+}

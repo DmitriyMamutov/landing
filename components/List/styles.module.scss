@@ -1,0 +1,32 @@
+@import "./static/styles/base/variables";
+
+.list {
+  display: flex;
+  max-width: 162px;
+  width: 100%;
+  margin: 0 auto;
+
+  &-item {
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+      margin-left: 8px;
+    }
+
+    &__icon {
+      max-width: 14px;
+      width: 100%;
+      display: flex;
+    }
+
+    &__text {
+      font-family: $fontModerat;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      color: $colorDarkBlue;
+      margin-left: 4px;
+    }
+  }
+}

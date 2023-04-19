@@ -1,0 +1,16 @@
+{
+  "header": {
+    "buttonText": "Protect me now"
+  },
+  "listItems": {
+    "l1": {
+      "text": "iOS"
+    },
+    "l2": {
+      "text": "macOS, Windows"
+    }
+  },
+  "footer": {
+    "text": "© 2023 Clario Tech DMCC All rights reserved."
+  }
+}

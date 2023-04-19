@@ -1,0 +1,39 @@
+@import "static/styles/base/variables";
+
+.button {
+  font-family: $fontModerat;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.54px;
+  color: $colorWhite;
+  padding: 9px 0 10px;
+  background: $colorPrimaryViolet;
+  border-radius: 70px;
+  width: 100%;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+  &--large {
+    max-width: 272px;
+  }
+
+  &--medium {
+    max-width: 222px;
+  }
+
+  &--small {
+    max-width: 183px;
+  }
+
+  &--smallest {
+    max-width: 127px;
+    border-radius: 60px;
+    padding: 6px 0 8px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

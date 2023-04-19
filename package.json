@@ -1,18 +1,27 @@
 {
-  "name": "landing-clario",
+  "name": "landing",
   "version": "0.1.0",
-  "private": true,
+  "description": "landing",
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.38.0",
-    "eslint-config-next": "13.3.0",
-    "next": "13.3.0",
+    "classnames": "^2.3.2",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "next": "12.1.5",
+    "next-compose-plugins": "^2.2.1",
+    "next-translate": "^1.6.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.8",
+    "react-slick": "^0.29.0",
+    "react-svg": "^16.1.8",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {}
 }

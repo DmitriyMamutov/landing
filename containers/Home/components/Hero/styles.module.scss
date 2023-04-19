@@ -1,0 +1,49 @@
+@import "./static/styles/base/variables";
+
+.hero {
+  padding: 110px 0 50px;
+  background: $colorBackgroundViolet;
+
+  &__title {
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  &__description {
+    font-family: $fontModerat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.248889px;
+    color: $colorDarkBlue;
+    opacity: 0.7;
+    margin-bottom: 35px;
+  }
+
+  &__button {
+    margin: 0 auto 35px;
+  }
+
+  &__video {
+    margin: 35px 0;
+
+    video {
+      border-radius: 14px;
+      overflow: hidden;
+    }
+  }
+
+  &__bottom_title {
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  &-bottom_list {
+    max-width: 235px;
+    width: 100%;
+    margin: 0 auto;
+    transform: translateX(7px);
+  }
+}

@@ -1,0 +1,9 @@
+@import "static/styles/base/variables";
+
+.home {
+  overflow: hidden;
+  position: relative;
+  max-width: fit-content;
+  margin: 0 auto;
+  background-color: $colorWhite;
+}

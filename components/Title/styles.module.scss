@@ -1,0 +1,52 @@
+@import "./static/styles/base/variables";
+
+.title {
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: flex;
+  letter-spacing: -0.435556px;
+
+  &--moderat {
+    font-family: $fontModerat;
+  }
+
+  &--dark_blue {
+    color: $colorDarkBlue;
+  }
+
+  &--white {
+    color: $colorWhite;
+  }
+
+  &--h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  &--h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  &--h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &--h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__second {
+    display: contents;
+
+    &--violet {
+      color: $colorPrimaryViolet;
+    }
+
+    &--green {
+      color: $colorPrimaryGreen;
+    }
+  }
+}

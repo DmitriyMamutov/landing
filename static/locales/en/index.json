@@ -1,0 +1,218 @@
+{
+  "metaTitle": "Clario",
+  "metaDescription": "Key features of Clario cybersecurity software · Unlimited secure VPN · Nonstop data breach monitoring · Powerful antivirus · 24/7/365 live security experts.",
+  "hero": {
+    "firstTitle": "Stop your ",
+    "secondTitle": "phone from being spied on",
+    "description": "Try Clario, a smart anti-spy app that effectively protects your privacy.",
+    "buttonText": "Protect me now",
+    "bottomTitle": "The anti-spy Clario app can:",
+    "bottomList": [
+      {
+        "id": "t1",
+        "text": "reveal hidden spying apps"
+      },
+      {
+        "id": "t2",
+        "text": "stop silent location tracking"
+      },
+      {
+        "id": "t3",
+        "text": "avoid social media hacks"
+      },
+      {
+        "id": "t4",
+        "text": "provide 24/7 expert security help"
+      }
+    ]
+  },
+  "clario": {
+    "title": "Clario helps you easily avoid spying",
+    "items": {
+      "c1": {
+        "title": "Spyware detector",
+        "description": "Find apps secretly spying on you and your data",
+        "subitems": {
+          "v1": {
+            "text": "Full background anti-spyware scan"
+          },
+          "v2": {
+            "text": "Instant spyware detection alerts"
+          },
+          "v3": {
+            "text": "Immediate threat quarantining"
+          }
+        }
+      },
+      "c2": {
+        "title": "Tracker detector",
+        "description": "Discover who tracks your location to spy on you",
+        "subitems": {
+          "v4": {
+            "text": "Stop being secretly tracked"
+          },
+          "v5": {
+            "text": "Protect your real location"
+          },
+          "v6": {
+            "text": "Control who sees your location"
+          }
+        }
+      },
+      "c3": {
+        "title": "Social media protection",
+        "description": "Easily prevent social media account hacks",
+        "subitems": {
+          "v7": {
+            "text": "See who uses your accounts"
+          },
+          "v8": {
+            "text": "Revoke access for other users"
+          },
+          "v9": {
+            "text": "Get unauthorized login alerts"
+          }
+        }
+      },
+      "c4": {
+        "title": "Call recorder blocker",
+        "description": "Discover if someone records your calls and chats",
+        "subitems": {
+          "v10": {
+            "text": "Hide your call history and records"
+          },
+          "v11": {
+            "text": "Revoke sharing your contact list"
+          },
+          "v12": {
+            "text": "Help secret texts remain secret"
+          }
+        }
+      },
+      "c5": {
+        "title": "Screen recording detector",
+        "description": "Don’t let anyone access your phone screen",
+        "subitems": {
+          "v13": {
+            "text": "Find out if your screen is being recorded"
+          },
+          "v14": {
+            "text": "Immediately stop silent recordings"
+          },
+          "v15": {
+            "text": "Get alerts if your camera is in use"
+          }
+        }
+      }
+    }
+  },
+  "problem": {
+    "title": "Not sure that the app can solve your problem?",
+    "description": "You'll have Clario experts ready to jump in and help you, 24/7, just when you need them.",
+    "tagText": "<b>Response time:</b>  2 mins",
+    "list": [
+      {
+        "id": "p1",
+        "text": "<b>Open</b> the app"
+      },
+      {
+        "id": "p2",
+        "text": "<b>Tap</b> app Expert"
+      },
+      {
+        "id": "p3",
+        "text": "<b>Connect</b> with an agent for a full anti-spy checkup"
+      }
+    ],
+    "buttonText": "Protect me now"
+  },
+  "steps": {
+    "firstTitle": "All you need to do ",
+    "secondTitle": "is 3 easy steps",
+    "list": [
+      {
+        "id": "e1",
+        "title": "Install Clario",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": "e2",
+        "title": "Set up your protection",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": "e3",
+        "title": "Enjoy spy-free life",
+        "text": "Relax and let Clario do the job."
+      }
+    ]
+  },
+  "start": {
+    "title": "Start your spy-free week for as low as",
+    "tag": {
+      "leftText": "Special offer valid for",
+      "rightText": "<b>30:00</b> min"
+    },
+    "price": {
+      "dollar": "$",
+      "integer": "2",
+      "tenths": "99",
+      "days": "/7 days"
+    },
+    "topSubtitle": "What you get:",
+    "topItems": {
+      "t1": {
+        "text": "Protection for 3 devices"
+      },
+      "t2": {
+        "text": "Anti-spy checkup"
+      },
+      "t3": {
+        "text": "Unlimited access to anti-spying tools"
+      },
+      "t4": {
+        "text": "24/7 help from security experts"
+      }
+    },
+    "buttonText": "Try for $2.99",
+    "bottomText": "By clicking above, you agree to try 7 days of Clario for $2.99 as a special offer. Your subscription will renew for $39.9/month every 2 months. Cancel anytime or manage your subscription in your Clario account.",
+    "bottomItems": {
+      "b1": {
+        "text": "30-day money-back guarantee"
+      },
+      "b2": {
+        "text": "100.000 + downloads"
+      }
+    }
+  },
+  "protect": {
+    "title": "Protect all your devices",
+    "description": "Are you working from a Windows laptop and browsing from your home Mac? Use Clario to enjoy total privacy on every platform and device."
+  },
+  "lets": {
+    "title": "Let’s hear what real Clario users say",
+    "items": {
+      "j1": {
+        "description": "It is a great application to protect yourself from hackers.",
+        "bottomText": "Manweet"
+      },
+      "j2": {
+        "description": "Great service! They were an amazing help with making sure my device is secure.",
+        "bottomText": "Megan_N"
+      },
+      "j3": {
+        "description": "The best app you could find! I had a problem of malware which added unknown accounts to my device. The \"Talk to experts\" feature saved the day! I was helped in all possible ways.",
+        "bottomText": "Shahu Sardar"
+      },
+      "j4": {
+        "description": "Great app! Cool thing with the data breaches - checked mine and my boyfriends emails and found 10! passwords we need to change",
+        "bottomText": "Zagkri"
+      }
+    }
+  },
+  "stop": {
+    "firstTitle": "Stop your ",
+    "secondTitle": "phone from being spied on",
+    "buttonText": "Protect me now"
+  }
+}

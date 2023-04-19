@@ -1,0 +1,22 @@
+@import "./static/styles/base/variables";
+
+.header {
+  position: absolute;
+  width: 100%;
+  padding: 17px 0;
+  top: 0;
+  left: 0;
+  background-color: $colorWhite;
+  z-index: $headerZindex;
+
+  &-content {
+    display: flex;
+    justify-content: center;
+
+    &__logo {
+      max-width: 80px;
+      width: 100%;
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@import "./static/styles/base/variables";
+
+.item {
+  border-radius: 20px;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &--violet {
+    background: #eff1ff;
+  }
+
+  &--green {
+    background: #eaf5e4;
+  }
+
+  &--blue {
+    background: #e6f2fe;
+  }
+
+  &__icon {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+
+    &--violet {
+      max-width: 97px;
+    }
+
+    &--green {
+      max-width: 103px;
+    }
+
+    &--blue {
+      max-width: 116px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 20px;
+    font-family: $fontModerat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.248889px;
+
+    &--violet {
+      color: #3d317c;
+    }
+
+    &--green {
+      color: #305938;
+    }
+
+    &--blue {
+      color: #1d367c;
+    }
+  }
+
+  &__bottom_text {
+    margin-top: auto;
+    font-family: $fontModerat;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.248889px;
+
+    &--violet {
+      color: #3d317c;
+    }
+
+    &--green {
+      color: #305938;
+    }
+
+    &--blue {
+      color: #1d367c;
+    }
+  }
+}

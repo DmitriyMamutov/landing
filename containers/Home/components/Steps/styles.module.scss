@@ -1,0 +1,17 @@
+@import "./static/styles/base/variables";
+
+.steps {
+  padding: 29px 0 45.5px;
+
+  &__title {
+    margin: 0 auto 40px;
+    text-align: center;
+    justify-content: center;
+    max-width: 220px;
+    width: 100%;
+  }
+
+  &-list {
+    padding: 0 16px;
+  }
+}

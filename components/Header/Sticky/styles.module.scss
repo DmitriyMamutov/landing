@@ -1,0 +1,29 @@
+@import "./static/styles/base/variables";
+
+.sticky {
+  padding: 12px 0;
+  position: fixed;
+  max-width: 480px;
+  width: 100%;
+  top: 0px;
+  left: 50%;
+  transition: $timeFast ease-out;
+  background: $colorWhite;
+  transform: translate(-50%, -100%);
+
+  &--active {
+    transform: translate(-50%, 0%);
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+      max-width: 80px;
+      width: 100%;
+      margin: auto 0;
+      display: flex;
+    }
+  }
+}
