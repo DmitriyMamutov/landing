@@ -1,1 +1,1 @@
-Example https://landing-iota-henna.vercel.app/
+Demo https://landing-iota-henna.vercel.app/
