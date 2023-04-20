@@ -34,6 +34,7 @@ const Clario = () => {
         <div className={styles["problem-tag"]}>
           <div className={styles["problem-tag__clock"]}>
             <Image
+              lazyBoundary="400px"
               src={PROBLEM_CLOCK}
               alt={t("problem.tagText")}
               width={26}
@@ -49,6 +50,7 @@ const Clario = () => {
         <div className={styles["problem-content"]}>
           <div className={styles["problem-content__phone"]}>
             <Image
+              lazyBoundary="400px"
               src={PROBLEM_PHONE}
               alt={t(`problem.list.${[0]}.text`)}
               width={544}
@@ -58,6 +60,7 @@ const Clario = () => {
 
           <div className={styles["problem-content__bubble"]}>
             <Image
+              lazyBoundary="400px"
               src={PROBLEM_BUBBLE}
               alt={t("problem.title")}
               width={182}
@@ -67,6 +70,7 @@ const Clario = () => {
 
           <div className={styles["problem-content__first_line"]}>
             <Image
+              lazyBoundary="400px"
               src={FIRST_LINE}
               alt={t("problem.title")}
               width={192}
@@ -76,6 +80,7 @@ const Clario = () => {
 
           <div className={styles["problem-content__second_line"]}>
             <Image
+              lazyBoundary="400px"
               src={SECOND_LINE}
               alt={t("problem.title")}
               width={378}

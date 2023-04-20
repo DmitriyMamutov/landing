@@ -18,6 +18,7 @@ const IconsList = () => {
                 width={iconWidth}
                 height={iconHeight}
                 alt={id}
+                priority={true}
               />
             </div>
             <div className={styles["list-item__text"]}>

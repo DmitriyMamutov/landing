@@ -15,7 +15,13 @@ const Header = (props) => {
       <div className="container">
         <div className={styles["header-content"]}>
           <div className={styles["header-content__logo"]}>
-            <Image src={WEBSITE_LOGO} width={160} height={43} alt="logo" />
+            <Image
+              priority={true}
+              src={WEBSITE_LOGO}
+              width={160}
+              height={43}
+              alt="logo"
+            />
           </div>
         </div>
       </div>

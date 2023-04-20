@@ -22,7 +22,13 @@ const Item = (props) => {
   return (
     <div className={styles["item"]} key={id}>
       <div className={styles["item__image"]}>
-        <Image src={imageUrl} width={544} height={744} alt={id} />
+        <Image
+          lazyBoundary="400px"
+          src={imageUrl}
+          width={544}
+          height={744}
+          alt={id}
+        />
       </div>
       <Title
         refProp={ref}
@@ -40,7 +46,13 @@ const Item = (props) => {
           return (
             <div key={idx} className={styles["item-sublist-element"]}>
               <div className={styles["item-sublist-element__icon"]}>
-                <Image src={iconUrl} width={48} height={49} alt={idx} />
+                <Image
+                  lazyBoundary="400px"
+                  src={iconUrl}
+                  width={48}
+                  height={49}
+                  alt={idx}
+                />
               </div>
 
               <div className={styles["item-sublist-element__text"]}>

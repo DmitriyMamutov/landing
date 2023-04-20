@@ -19,6 +19,7 @@ const Start = () => {
       <div className="container">
         <div className={styles["start__check"]}>
           <Image
+            lazyBoundary="400px"
             src={START_CHECK}
             width={640}
             height={300}
@@ -68,7 +69,13 @@ const Start = () => {
               return (
                 <div key={id} className={styles["start-card-top_list-item"]}>
                   <div className={styles["start-card-top_list-item__icon"]}>
-                    <Image src={iconUrl} alt={id} width={40} height={40} />
+                    <Image
+                      lazyBoundary="400px"
+                      src={iconUrl}
+                      alt={id}
+                      width={40}
+                      height={40}
+                    />
                   </div>
                   <div className={styles["start-card-top_list-item__text"]}>
                     {t(`start.topItems.${id}.text`)}
@@ -103,6 +110,7 @@ const Start = () => {
                       )}
                     >
                       <Image
+                        lazyBoundary="400px"
                         src={iconUrl}
                         alt={id}
                         width={iconWidth}

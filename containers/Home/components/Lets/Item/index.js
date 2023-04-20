@@ -11,7 +11,13 @@ const Item = (props) => {
   return (
     <div key={id} className={cn(styles["item"], styles[`item--${color}`])}>
       <div className={cn(styles["item__icon"], styles[`item__icon--${color}`])}>
-        <Image src={iconUrl} alt={id} width={iconWidth} height={iconHeight} />
+        <Image
+          lazyBoundary="400px"
+          src={iconUrl}
+          alt={id}
+          width={iconWidth}
+          height={iconHeight}
+        />
       </div>
 
       <div
