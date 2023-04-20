@@ -5,18 +5,18 @@
   position: fixed;
   max-width: 480px;
   width: 100%;
-  top: 0px;
+  top: -56px;
   left: 50%;
   transition: $timeFast ease-out;
   background: $colorWhite;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, 0%);
 
   @media (min-width: 993px) {
     max-width: 320px;
   }
 
   &--active {
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, 100%);
   }
 
   &-wrapper {
