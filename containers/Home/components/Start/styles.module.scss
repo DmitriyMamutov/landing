@@ -8,7 +8,7 @@
     max-width: calc(100% + 48px);
     width: calc(100% + 48px);
     display: flex;
-    margin: 0px -24px 24px;
+    margin: 0px -24px 20px;
   }
 
   &__title {
@@ -34,7 +34,7 @@
       padding: 2px 12px 3px;
       background: #fff2eb;
       border-radius: 4px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
 
       &__left {
         font-family: $fontModerat;

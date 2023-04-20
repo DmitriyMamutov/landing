@@ -88,7 +88,7 @@ const Start = () => {
             {t("start.bottomText")}
           </div>
 
-          <div>
+          <div className={styles["start-card-bottom_list"]}>
             {START_CARD_BOTTOM_LIST.map(
               ({ id, iconUrl, iconWidth, iconHeight }) => {
                 return (

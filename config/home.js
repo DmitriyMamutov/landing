@@ -78,7 +78,7 @@ module.exports = {
 
     {
       id: "c4",
-      imageUrl: "/static/images/home/clario/1.png",
+      imageUrl: "/static/images/home/clario/4.png",
       sublist: [
         {
           idx: "v10",

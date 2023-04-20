@@ -1,6 +1,4 @@
-import { useEffect, useLayoutEffect, useState } from "react";
 import { CLARIO_LIST } from "config/home";
-import Image from "next/image";
 import useTranslation from "next-translate/useTranslation";
 import Title from "components/Title";
 import Item from "./Item";
