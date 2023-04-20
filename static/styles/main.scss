@@ -1,11 +1,12 @@
 /* Base */
-@import 'base/variables';
-@import 'base/normalize';
-@import 'base/base';
-@import 'base/fonts';
+@import "base/variables";
+@import "base/normalize";
+@import "base/base";
+@import "base/fonts";
+@import "base/mixins";
 
 /* Layout */
-@import 'layout/grid';
+@import "layout/grid";
 
 /* Plugins */
-@import 'plugins/slick';
+@import "plugins/slick";

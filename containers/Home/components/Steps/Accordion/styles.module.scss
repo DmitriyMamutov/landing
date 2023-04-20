@@ -1,4 +1,5 @@
 @import "./static/styles/base/variables";
+@import "./static/styles/base/mixins";
 
 .accordion {
   position: relative;
@@ -60,12 +61,8 @@
     }
 
     &__title {
-      font-family: $fontModerat;
-      font-weight: 400;
-      font-size: 16px;
+      @include usualText();
       line-height: 22px;
-      letter-spacing: -0.248889px;
-      color: $colorDarkBlue;
       transition: $timeMedium ease-out;
       margin-left: 8px;
 

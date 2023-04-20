@@ -1,4 +1,5 @@
 @import "./static/styles/base/variables";
+@import "./static/styles/base/mixins";
 
 .problem {
   padding: 33px 0 50px;
@@ -11,14 +12,9 @@
   }
 
   &__description {
-    font-family: $fontModerat;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    @include usualText();
     justify-content: center;
     text-align: center;
-    letter-spacing: -0.248889px;
-    color: $colorDarkBlue;
     margin-bottom: 16px;
   }
 
