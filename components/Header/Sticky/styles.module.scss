@@ -7,7 +7,7 @@
   width: 100%;
   top: -56px;
   left: 50%;
-  transition: $timeFast ease-out;
+  transition: $timeFast $timeFast ease-out;
   background: $colorWhite;
   transform: translate(-50%, 0%);
 
@@ -17,6 +17,7 @@
 
   &--active {
     transform: translate(-50%, 100%);
+    transition: $timeFast ease-out;
   }
 
   &-wrapper {
